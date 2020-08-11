@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  canvas {
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+  }
+  .logo {
+    width: 50vw;
+    display: block;
+}
+.btnHome {
+  border-radius: 20px;
+  width: 100px;
+}
