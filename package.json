@@ -1,0 +1,19 @@
+{
+  "name": "flappy-burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milaroque/flappy-burger.git"
+  },
+  "author": "Camila Roque <milaroque>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milaroque/flappy-burger/issues"
+  },
+  "homepage": "https://github.com/milaroque/flappy-burger#readme"
+}
