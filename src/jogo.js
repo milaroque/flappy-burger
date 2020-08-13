@@ -346,7 +346,7 @@ function loop() {
 }
 
 
-window.addEventListener('click', function() {
+canvas.addEventListener('click', function() {
   if(telaAtiva.click) {
     telaAtiva.click();
   }
