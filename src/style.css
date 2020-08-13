@@ -2,33 +2,52 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: Fira Sans;
+  background: rgba(246, 241, 241, 0.79);
+}
 .logo {
   width: 100vw;
   display: flex;
   justify-content: center;
 }
 main {
+  width: 100vw;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  canvas {
-    border: 1px solid #000;
-    display: block;
-    margin: 0 auto;
-  }
+canvas {
+  width: 20vw;
+  border: 1px solid #000;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
 .btnHome {
-  border-radius: 20px;
-  width: 15vw;
-  height: 13vh;
+  font-size: 12px;
+  height: 3vw;
+  width: 20vw;
+  background-color: #e75744;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.hamb-btn{
+  width: 50vw;
 }
 footer {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 5vh;
-  width: 100vw;
-  overflow: hidden;
+  font-size: 15px;
+  bottom: 0px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid rgba(216, 84, 84, 0.308);
+  background-color: #F6F1F1;
+}
+footer a {
+	color: red;
+	text-decoration: underline
 }
