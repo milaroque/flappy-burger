@@ -12,9 +12,6 @@ main {
   justify-content: center;
   align-items: center;
 }
-  .game, .hamb-btn {
-    height: 100vh;
-  }
   canvas {
     border: 1px solid #000;
     display: block;
