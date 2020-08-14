@@ -71,10 +71,13 @@ canvas {
     height: 80vh;
   }
 canvas {
-  width: 30vw;
+  width: 40vw;
 }
-.burger {
-  width: 30vw;
+.flappy{
+  width: 100vw;
+}
+.sorry{
+  width: 40vw;
 }
 .btnHome {
   font-size: 11px;
