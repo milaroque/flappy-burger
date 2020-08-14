@@ -51,3 +51,34 @@ footer a {
 	color: red;
 	text-decoration: underline
 }
+@media (min-width: 640px) and (max-width: 1024px) {
+  main {
+    height: 80vh;
+  }
+canvas {
+  width: 40vw;
+}
+.burger {
+  width: 40vw;
+}
+.btnHome {
+  height: 7vw;
+  width: 40vw;
+}
+}
+@media (max-width: 380px){
+  main {
+    height: 80vh;
+  }
+canvas {
+  width: 30vw;
+}
+.burger {
+  width: 30vw;
+}
+.btnHome {
+  font-size: 11px;
+  height: 9vw;
+  width: 41vw;
+}
+}
